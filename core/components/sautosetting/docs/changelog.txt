@@ -1,0 +1,26 @@
+Changelog for sAutoSetting.
+
+1.0.1-beta
+==============
+Fix sitemap.xml and robots.txt aliases
+Added 404 error page
+Added text page template
+Added icon to home page
+
+Removed package: AjaxManager
+Added package: MIGX
+
+Removed system settings: tiny.base_url, tiny.path_options
+Changed system settings: 
+ friendly_alias_translit -> russian_yandex
+ friendly_alias_restrict_chars -> alphanumeric 
+ friendly_alias_realtime -> true
+ error_page and unauthorized_page -> error404 page id
+ 
+Added translit table "russian_yandex"
+
+
+1.0.0-beta
+==============
+- Initial release.
+
